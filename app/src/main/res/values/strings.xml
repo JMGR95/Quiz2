@@ -1,9 +1,21 @@
 <resources>
     <string name="app_name">Quiz</string>
-    <string name="pregunta_chocolate">El chocolate es caro</string>
-    <string name="pregunta_33">Si repruebas 1 vez una materia caes en artículo 33</string>
-    <string name="pregunta_proyecto">Si eres del nuevo plan es obligatorio realizar proyecto para titularte</string>
-    <string name="pregunta_bajas">Solamente me puedo de dar de baja de la carrera la primer semana de clases</string>
+    <string name="pregunta1">¿Aang es un maestro aire?</string>
+    <string name="pregunta2">¿La nación del fuego conquisto la tribu agua?</string>
+    <string name="pregunta3">¿Roku es el señor del fuego?</string>
+    <string name="pregunta4">¿Sokka es un maestro agua?</string>
+    <string name="pregunta5">¿Momo es un lemur volador?</string>
+    <string name="pregunta6">¿Appa es un bisonte volador?</string>
+    <string name="pregunta7">¿Zuko es un maestro tierra?</string>
+    <string name="pregunta8">¿Aang es el avatar?</string>
+    <string name="pregunta9">¿Toph es una maestra agua?</string>
+    <string name="pregunta10">¿Katara es una maestra tiera?</string>
+    <string name="pregunta11">¿Iroh es un maestro fuego?</string>
+    <string name="pregunta12">¿Existen dos tribus agua?</string>
+    <string name="pregunta13">¿Bumi es el rey del reino tierra?</string>
+    <string name="pregunta14">¿Hakoda es jefe de la tribu agua del norte?</string>
+    <string name="pregunta15">¿Ozai es un maestro fuego?</string>
+
     <string name="true_button">True</string>
     <string name="false_button">False</string>
     <string name="correct_toast">Correcto!!</string>
