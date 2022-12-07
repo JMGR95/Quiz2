@@ -1,14 +1,15 @@
 package guerrero.erick.quiz
 
+import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import guerrero.erick.quiz.databinding.ActivityCheatBinding
 
+const val EXTRA_ANSWER_SHOWN = "guerrero.erick.quiz.answer_shown"
 private const val EXTRA_ANSWER_IS_TRUE =
     "guerrero.erick.quiz.answer_is_true"
-    //"com.bignerdranch.android.geoquiz.answer_is_true"
 
 
 class CheatActivity : AppCompatActivity() {
@@ -30,8 +31,17 @@ class CheatActivity : AppCompatActivity() {
                 else -> R.string.false_button
             }
             binding.answerTextView.setText(answerText)
+            setAnswerShownResult(true)
         }
     }
+
+    private fun setAnswerShownResult(isAnswerShown: Boolean) {
+        val data = Intent().apply {
+            putExtra(EXTRA_ANSWER_SHOWN, isAnswerShown)
+        }
+        setResult(Activity.RESULT_OK, data)
+    }
+
 
     companion object {
         fun newIntent(packageContext: Context, answerIsTrue: Boolean): Intent {
