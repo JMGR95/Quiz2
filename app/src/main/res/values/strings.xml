@@ -15,10 +15,14 @@
     <string name="pregunta13">¿Bumi es el rey del reino tierra?</string>
     <string name="pregunta14">¿Hakoda es jefe de la tribu agua del norte?</string>
     <string name="pregunta15">¿Ozai es un maestro fuego?</string>
-
     <string name="true_button">True</string>
     <string name="false_button">False</string>
     <string name="correct_toast">Correcto!!</string>
     <string name="incorrect_toast">Incorrecto!!</string>
     <string name="next_button">Siguente pregunta</string>
+    <string name="warning_text">¿Estas seguro que quieres hacerlo?</string>
+    <string name="show_answer_button">Mostrar respuesta</string>
+    <string name="cheat_button">Trampa!</string>
+    <string name="judgment_toast">Hacer trampa esta mal.</string>
+
 </resources>
